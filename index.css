@@ -1,0 +1,1299 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-image:url('./bg-home.jpg'); */
+}
+/* .about_body{
+   background-image: url("bg-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+} */
+
+/* .about_for p{
+  width: 100%;
+  background-color: rgb(rgb(11, 3, 125));
+  color: white;
+} */
+
+.for{
+  text-align: center;
+  font-size: 31px;
+  
+}
+.hmenu{
+  display: none;
+}
+.mobile-menu{
+  display: none;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  margin-top: 0.5%;
+}
+.logo img {
+  height: 62px;
+}
+.menu {
+  margin-top: 2%;
+  display: flex;
+}
+
+.menu a {
+  color: black;
+  padding: 13px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.mobile-menu{
+  display: none;
+}
+.mobile{
+  display: none;
+  margin-top: 3%;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+/* body{
+  width: 100%;
+  height: 650px;
+  background-image:url(background.jpg);
+  background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+
+} */
+
+.heading {
+  text-align: center;
+}
+.discreption-1 img {
+  width: 50%;
+}
+.discreption-1 {
+  margin-bottom: 2%;
+  width: 100%;
+  display: flex;
+}
+.moto-of-company {
+  margin-bottom: 2%;
+  width: 50%;
+}
+.appication-area {
+  margin-bottom: 2%;
+  width: 50%;
+}
+.nav-bar {
+  /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background-color: white;
+}
+.main-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+  background-color: white;
+}
+.cards {
+  margin: 1%;
+  width: 25%;
+}
+.card {
+  width: 100%;
+
+  background-color: whitesmoke;
+  border-radius: 3%;
+}
+.title,
+.card-button {
+  text-align: center;
+  margin: 2px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 3%;
+}
+button {
+  font-size: 20px;
+  border-radius: 9%;
+  cursor: pointer;
+  border: 1px solid;
+}
+.home-body {
+  width: 100%;
+
+   /* background-image: url('bg-home.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  */
+
+}
+/* 
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.mobile-menu li {
+  list-style: none;
+}
+.mobile-menu a {
+  color: black;
+  padding:1px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.mobile-menu a:hover {
+  text-decoration: underline;
+} */
+.email {
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.email img {
+  width: 20px;
+}
+.email li {
+  list-style: none;
+  margin: 9px;
+}
+.email li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 7%;
+}
+.email li a:hover {
+  text-decoration: underline;
+}
+
+.containt {
+  display: flex;
+  width: 100%;
+}
+.discrip {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 3%;
+  font-size: 19px;
+}
+.picture {
+  width: 50%;
+  margin-top: 6%;
+}
+.picture img {
+  border-radius: 54%;
+}
+/* .fill_form {
+  width: 100%;
+} */
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 0px;
+  margin: 1%;
+}
+
+label {
+  font-weight: bold;
+}
+/* .contact_body {
+  background-color: whitesmoke;
+} */
+.mobile-number {
+  height: 100px;
+
+  width: 100%;
+}
+.mobile-number li {
+  list-style: none;
+  float: right;
+  margin: 5%;
+}
+hr {
+  margin: 0px 0px;
+}
+#chat {
+  border: none;
+}
+#chat img {
+  width: 60px;
+  background-color: white;
+}
+@media screen and (max-width: 500px) {
+  .about{
+    width: 100%;
+  }
+  .admin{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info{
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li{
+    list-style: none;
+    width: 72%;
+  }
+  
+  .photo{
+    width: 40%;
+  }
+  .photo img{
+    width: 100%;
+    height: 300px;
+  }
+  .discreption-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .oxi{
+    width:54%;
+    margin: 3%;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+/*   
+.nav-bar-Mobile{
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mobile-menu li {
+  list-style: none;
+}
+.mobile-menu a {
+  color: black;
+  padding:0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.mobile-menu a:hover {
+  text-decoration: underline;
+} */
+.menu{
+  display: none;
+}
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   
+   
+    
+    
+  }
+  .logo {
+    margin-top: 0.5%;
+   
+    
+  }
+  .logo img {
+    width: 100px;
+    height: 60px;
+    margin-left: -85%;
+    
+  }
+  .hmenu {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 6%;
+    margin-left: 2%;
+    display: none;
+    
+   
+  }
+  .mobile{
+    display: block;
+    margin-top: 4%;
+    
+    margin-right: -23%;
+  }
+
+  .menu a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  /* body{
+    width: 100%;
+    height: 650px;
+    background-image:url(background.jpg);
+    background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  } */
+
+  .heading {
+    text-align: center;
+  }
+  .discreption-1 img {
+    width: 50%;
+  }
+  .discreption-1 {
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+  }
+  .moto-of-company {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .appication-area {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .nav-bar {
+    background-color: white;
+  }
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    background-color: white;
+  }
+
+  .cards {
+    margin: 2%;
+    width: 65%;
+  }
+  .card {
+    width: 100%;
+
+    background-color: whitesmoke;
+    border-radius: 3%;
+  }
+  .for{
+    text-align: center;
+    font-size: 31px;
+    
+  }
+  .title,
+  .card-button {
+    text-align: center;
+    margin: 2px;
+  }
+  .card-button{
+    width: 40%;
+    height: 30px;
+  }
+  .card-button li{
+    list-style: none;
+  }
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3%;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 9%;
+    cursor: pointer;
+    border: 1px solid;
+  }
+  .home-body {
+    width: 100%;
+
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: white;
+  }
+  .email {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .email img {
+    width: 20px;
+  }
+  .email li {
+    list-style: none;
+    margin: 1px;
+
+  }
+  .email li a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 7%;
+  }
+  .email li a:hover {
+    text-decoration: underline;
+  }
+
+  .containt {
+    display: flex;
+    width: 100%;
+  }
+  .discrip {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 9px;
+  }
+  .picture {
+    width: 50%;
+    margin-top: 6%;
+  }
+  .picture img {
+    border-radius: 51%;
+    width: 99%;
+    margin-top: 22%;
+  }
+  /* .fill_form {
+    width: 100%;
+  } */
+  form {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    height: 39px;
+    padding: 8px 0px;
+    margin: 1%;
+  }
+  #message {
+    height: 200px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  /* .contact_body {
+    background-color: whitesmoke;
+    width: 100%;
+  } */
+  .mobile-number {
+    height: 100px;
+
+    width: 100%;
+  }
+  .mobile-number li {
+    list-style: none;
+    float: right;
+    margin: 5%;
+  }
+  hr {
+    margin: 0px 0px;
+  }
+  #chat {
+    border: none;
+  }
+  #chat img {
+    width: 60px;
+    background-color: white;
+  }
+  .mobile-menu{
+   
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    background: whitesmoke;
+  
+    bottom: 2rem;
+    
+
+  }
+  .mobile-menu a{
+    color: black;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 20px;
+  }
+}
+@media screen and  (min-width:854px) and ( max-width: 1179px) {
+
+  .about{
+    width: 100%;
+  }
+  .admin{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info{
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li{
+    list-style: none;
+    width: 72%;
+  }
+  
+  .photo{
+    width: 40%;
+  }
+  .photo img{
+    width: 100%;
+    height: 300px;
+  }
+  .discreption-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    font-size: 15px;
+  }
+  .oxi{
+    width: 40%;
+    margin: 3%;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+/*   
+.nav-bar-Mobile{
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mobile-menu li {
+  list-style: none;
+}
+.mobile-menu a {
+  color: black;
+  padding:0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.mobile-menu a:hover {
+  text-decoration: underline;
+} */
+.menu{
+  display: none;
+}
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   
+   
+    
+    
+  }
+  .logo {
+    margin-top: 0.5%;
+   
+    
+  }
+  .logo img {
+    width: 100px;
+    height: 60px;
+    margin-left: -85%;
+    
+  }
+  .hmenu {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 6%;
+    margin-left: 2%;
+    display: none;
+    
+   
+  }
+  .mobile{
+    display: block;
+    margin-top: 4%;
+    
+    margin-right: -23%;
+  }
+
+  .menu a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  /* body{
+    width: 100%;
+    height: 650px;
+    background-image:url(background.jpg);
+    background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  } */
+
+  .heading {
+    text-align: center;
+  }
+  .discreption-1 img {
+    width: 50%;
+  }
+  .discreption-1 {
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+  }
+  .moto-of-company {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .appication-area {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .nav-bar {
+    background-color: white;
+  }
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    background-color: white;
+  }
+
+  .cards {
+    margin: 2%;
+    width: 29%;
+  }
+  .card {
+    width: 100%;
+
+    background-color: whitesmoke;
+    border-radius: 3%;
+  }
+  .title,
+  .card-button {
+    text-align: center;
+    margin: 2px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3%;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 9%;
+    cursor: pointer;
+    border: 1px solid;
+  }
+  .home-body {
+    width: 100%;
+
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: white;
+  }
+  .email {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .email img {
+    width: 20px;
+  }
+  .email li {
+    list-style: none;
+    margin: 1px;
+
+  }
+  .email li a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 7%;
+  }
+  .email li a:hover {
+    text-decoration: underline;
+  }
+
+  .containt {
+    display: flex;
+    width: 100%;
+  }
+  .discrip {
+    width: 63%;
+    margin-top: 20%;
+    margin-left: 3%;
+    font-size: 14px;
+  }
+  .picture {
+    width: 50%;
+    margin-top: 6%;
+  }
+  .picture img {
+    border-radius: 51%;
+    width: 99%;
+    margin-top: 22%;
+  }
+  /* .fill_form {
+    width: 100%;
+  } */
+  form {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    height: 39px;
+    padding: 8px 0px;
+    margin: 1%;
+  }
+  #message {
+    height: 200px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  /* .contact_body {
+    background-color: whitesmoke;
+    width: 100%;
+  } */
+  .mobile-number {
+    height: 100px;
+
+    width: 100%;
+  }
+  .mobile-number li {
+    list-style: none;
+    float: right;
+    margin: 5%;
+  }
+  hr {
+    margin: 0px 0px;
+  }
+  #chat {
+    border: none;
+  }
+  #chat img {
+    width: 60px;
+    background-color: white;
+  }
+  .mobile-menu{
+   
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    background: whitesmoke;
+  
+    bottom: 2rem;
+    
+
+  }
+  .mobile-menu a{
+    color: black;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 20px;
+  }
+  .about{
+    width: 100%;
+  }
+  .admin{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info{
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li{
+    list-style: none;
+    width: 72%;
+  }
+  
+  .photo{
+    width: 40%;
+  }
+  .photo img{
+    width: 100%;
+    height: 300px;
+  }
+  .discreption-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .oxi{
+    width: 41%;
+    margin: 3%;
+  }
+}
+@media screen and (min-width:502px) and (max-width:862px) {
+  .about{
+    width: 100%;
+  }
+  .admin{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info{
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li{
+    list-style: none;
+    width: 72%;
+  }
+  
+  .photo{
+    width: 40%;
+  }
+  .photo img{
+    width: 100%;
+    height: 300px;
+  }
+  .discreption-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .oxi{
+    width:54%;
+    margin: 3%;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+/*   
+.nav-bar-Mobile{
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mobile-menu li {
+  list-style: none;
+}
+.mobile-menu a {
+  color: black;
+  padding:0px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.mobile-menu a:hover {
+  text-decoration: underline;
+} */
+.menu{
+  display: none;
+}
+  .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   
+   
+    
+    
+  }
+  .logo {
+    margin-top: 0.5%;
+   
+    
+  }
+  .logo img {
+    width: 100px;
+    height: 60px;
+    margin-left: -85%;
+    
+  }
+  .hmenu {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 6%;
+    margin-left: 2%;
+    display: none;
+    
+   
+  }
+  .mobile{
+    display: block;
+    margin-top: 4%;
+    
+    margin-right: -23%;
+  }
+
+  .menu a {
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  /* body{
+    width: 100%;
+    height: 650px;
+    background-image:url(background.jpg);
+    background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  } */
+
+  .heading {
+    text-align: center;
+  }
+  .discreption-1 img {
+    width: 50%;
+  }
+  .discreption-1 {
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+  }
+  .moto-of-company {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .appication-area {
+    margin-bottom: 2%;
+    width: 50%;
+  }
+  .nav-bar {
+    background-color: white;
+  }
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    background-color: white;
+  }
+
+  .cards {
+ 
+    margin: 2%;
+    width: 39%;
+  
+  }
+  .card {
+    width: 100%;
+
+    background-color: whitesmoke;
+    border-radius: 3%;
+  }
+  .title,
+  .card-button {
+    text-align: center;
+    margin: 2px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 3%;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 9%;
+    cursor: pointer;
+    border: 1px solid;
+  }
+  .home-body {
+    width: 100%;
+
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-polygonal-chemical-molecule-poster-background-image_125106.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: white;
+  }
+  .email {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .email img {
+    width: 20px;
+  }
+  .email li {
+    list-style: none;
+    margin: 1px;
+
+  }
+  .email li a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 7%;
+  }
+  .email li a:hover {
+    text-decoration: underline;
+  }
+
+  .containt {
+    display: flex;
+    width: 100%;
+  }
+  .discrip {
+    width: 63%;
+    margin-top: 20%;
+    margin-left: 3%;
+    font-size: 14px;
+  }
+  .picture {
+    width: 50%;
+    margin-top: 10%;
+  }
+  .picture img {
+    border-radius: 51%;
+    width: 99%;
+    margin-top: 22%;
+  }
+  /* .fill_form {
+    width: 100%;
+  } */
+  form {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    height: 39px;
+    padding: 8px 0px;
+    margin: 1%;
+  }
+  #message {
+    height: 200px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  /* .contact_body {
+    background-color: whitesmoke;
+    width: 100%;
+  } */
+  .mobile-number {
+    height: 100px;
+
+    width: 100%;
+  }
+  .mobile-number li {
+    list-style: none;
+    float: right;
+    margin: 5%;
+  }
+  hr {
+    margin: 0px 0px;
+  }
+  #chat {
+    border: none;
+  }
+  #chat img {
+    width: 60px;
+    background-color: white;
+  }
+  .mobile-menu{
+   
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 99;
+    background: whitesmoke;
+  
+    bottom: 2rem;
+    
+
+  }
+  .mobile-menu a{
+    color: black;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 20px;
+  }
+  .about{
+    width: 100%;
+  }
+  .admin{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+  }
+  .info{
+    margin-left: 4%;
+    font-size: 20px;
+    width: 50%;
+  }
+  .info li{
+    list-style: none;
+    width: 72%;
+  }
+  
+  .photo{
+    width: 40%;
+  }
+  .photo img{
+    width: 100%;
+    height: 300px;
+  }
+  .discreption-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    font-size: 14px;
+  }
+  .oxi{
+    width:54%;
+    margin: 3%;
+  }
+  
+}
+.about{
+  width: 100%;
+}
+.admin{
+  margin-top: 3%;
+  display: flex;
+  width: 100%;
+}
+.info{
+  margin-left: 4%;
+  font-size: 20px;
+  width: 50%;
+}
+.info li{
+  list-style: none;
+  width: 72%;
+}
+
+.photo{
+  width: 40%;
+}
+.photo img{
+  width: 100%;
+  height: 300px;
+}
+.discreption-1{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  font-size: 15px;
+}
+.oxi{
+  width: 27%;
+  margin: 3%;
+}
